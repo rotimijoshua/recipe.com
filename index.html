@@ -5,23 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe.com</title>
     <link rel="stylesheet" href="css/materialize.css">
+    <style>
+        .slider .indicators .indicator-item.active{
+            background-color: #e65100;
+        }
+
+    </style>
 </head>
 <!-- header -->
-<header></header>
+<header>
+    <nav class="white">
+        <div class="container">
+            <a href="" ><img class="responsive-img" width="150px" src=" img/logo.png" alt=""></a>
+            <a href="#mobile" class="sidenav-trigger right orange-text" href="">s</a>
+            <ul class="right hide-on-small-only">
+                <li><a class="orange-text text-darken-4" href="" ><strong>Home </strong></a></li>
+                <li><a class="orange-text text-darken-4" href=""><strong>Cake </strong></a></li>
+                <li><a class="orange-text text-darken-4" href=""><strong>Soup </strong></a></li>
+                <li><a class="orange-text text-darken-4" href=""><strong>Chicken </strong></a></li>
+                <li><a class="orange-text text-darken-4" href=""><strong>Customer </strong></a></li>
+                </ul>
+            <ul id="mobile" class="sidenav orange darken-4">
+                <li><a class="white-text" href="" ><strong>Home </strong></a></li>
+                <li><a class="white-text" href=""><strong>Cake </strong></a></li>
+                <li><a class="white-text" href=""><strong>Soup </strong></a></li>
+                <li><a class="white-text" href=""><strong>Chicken </strong></a></li>
+                <li><a class="white-text" href=""><strong>Customer </strong></a></li>
+            </ul>
+        </div>
+    </nav>
+        <div class="slider">
+            <ul class="slides">
+                <li><img class="responsive-img" src="img/cake_fruit.jpg" alt=""></li>
+                <li><img class="responsive-img" src="img/shrimp_soup.jpg" alt=""></li>
+                <li><img class="responsive-img" src="img/chicken_3.jpg" alt=""></li>
+                <li><img class="responsive-img" src="img/dessert_chocolate.jpg" alt=""></li>
+                <li><img class="responsive-img" src="img/ginger_cake.webp" alt=""></li>
+
+            </ul>
+
+        
+
+    </div>
+</header>
+
 <body>
     <main>
+        <div class="container">
+            <h1 class="orange-text ">Hello there,foodies!</h1>
+                <p class="flow-text"> 
+            You smart,you royal, you are a genius. You see the edges how i got it shaped up?. It is important to shape your edges, it's like getting a haircut, stay fresh. I'm giving you cloth talk, cloth.Special cloth alert, cut from a special clothe. In life there will be roadblocks but we will overcome it. In life you have to take the trash out, if you have trash in your life take it out, throw it away, get rid of it, major key
+                </p>
+        </div>
+    <div id="about" class="container">
+        <div class="row">
+            <div class="col s4 ">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header orange darken-4 white-text">
+                                cakes
+                            </div>
+                            <div class="collapsible-body">
+                                <img class="responsive-img" src="img/sponge_cake.webp" alt="">
+                            <p>
+                                I'm giving you cloth talk, cloth.Special cloth alert, cut from a special clothe.It on you how you live your life
+                            </p>
+                            <h1 class="btn orange darken-4">
+                                All Cakes Recipe
+                            </h1>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+            <div class="col s4 ">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header orange darken-4 white-text">
+                                soups
+                            </div>
+                            <div class="collapsible-body">
+                                <img class="responsive-img" src="img/mexican_soup.webp" alt="">
+                            <p>
+                                The key to success is to keep your head above the water, never give up. The key is to drink fresh coconut. Special cloth talk.
+                            </p>
+                            <h1 class="btn orange darken-4">
+                                All Soup Recipe
+                            </h1>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+            <div class="col s4 ">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header orange darken-4 white-text">
+                                Chicken
+                            </div>
+                            <div class="collapsible-body">
+                                <img class="responsive-img" src="img/chicken_8.webp" alt="">
+                            <p>
+                                Major key, dont panic. When its get crazy and rough do not panic stay calm.The key is to drink some fresh milk
+                            </p>
+                            <h1 class="btn orange darken-4">
+                                All Chicken Recipe
+                            </h1>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="orange-text darken-4 ">
+            <h2>What Our Customers Say...</h2>
+            
+        </div>
+    </div>
+
+
         <!-- home -->
+            <section></section>
         <!-- customer comments -->
+            <section></section>
         <!-- cake -->
+            <section></section>
         <!-- soup -->
+            <section></section>
         <!-- chicken -->
+            <section></section>
     </main>
-</body>
-<footer></footer>
-<script src="js/jquery.js"></script>
-<script src="js/materialize.js"></script>
-<script>
-    $(document).ready(function(){
+    <footer></footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.slider').slider({
+                height: 600,
+                indicators:true,
+                interval:2000
+            });
+            $('.collapsible').collapsible();
         })
-</script>
+    </script>
+    </body>
 </html>
