@@ -7,6 +7,12 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/materialize.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    html{
+        font-family: "Josefin Sans", sans-serif;    
+    }
+    </style>
+    <style>
         .slider .indicators .indicator-item.active{
             background-color: #e65100;
         }
@@ -39,11 +45,10 @@
     </nav>
         <div class="slider">
             <ul class="slides">
-                <li><img class="responsive-img" src="img/cake_fruit.jpg" alt=""></li>
                 <li><img class="responsive-img" src="img/shrimp_soup.jpg" alt=""></li>
                 <li><img class="responsive-img" src="img/chicken_3.jpg" alt=""></li>
                 <li><img class="responsive-img" src="img/dessert_chocolate.jpg" alt=""></li>
-                <li><img class="responsive-img" src="img/ginger_cake.webp" alt=""></li>
+                <li><img class="responsive-img" src="img/cake_fruit.jpg" alt=""></li>
             </ul>
     </div>
 </header>
@@ -65,18 +70,17 @@
                             <ul class="collapsible">
                                 <li>
                                     <div class="collapsible-header orange darken-4 white-text">
-                                        <i class="material-icons">label</i>
-                                        <br>
-                                        cakes
+                                        <i class=" left material-icons">label</i>
+                                        CAKES
                                     </div>
                                     <div class="collapsible-body">
                                         <img class="responsive-img" src="img/sponge_cake.webp" alt="">
                                     <p>
                                         Indulge in a sweet and tasty cake recipe perfect for every celebration
                                     </p>
-                                    <h1 class="btn orange darken-4">
+                                    <a class="btn-flat orange darken-4 white-text">
                                         All Cakes Recipes
-                                    </h1>
+                                    </a>
                                     </div>
                                 </li>
                             </ul>
@@ -85,18 +89,17 @@
                             <ul class="collapsible">
                                 <li>
                                     <div class="collapsible-header orange darken-4 white-text">
-                                        <i class="material-icons">label</i>
-                                        <br>
-                                        soups
+                                        <i class="left material-icons">label</i>
+                                        SOUPS
                                     </div>
                                     <div class="collapsible-body">
                                         <img class="responsive-img" src="img/mexican_soup.webp" alt="">
                                     <p>
                                         Cozy up with our comforting soup recipes that warm the heart and soul 
                                     </p>
-                                    <h1 class="btn orange darken-4">
+                                    <a class="btn-flat orange darken-4 white-text">
                                         All Soup Recipes
-                                    </h1>
+                                    </a>
                                     </div>
                                 </li>
                             </ul>
@@ -105,18 +108,17 @@
                             <ul class="collapsible">
                                 <li>
                                     <div class="collapsible-header orange darken-4 white-text">
-                                        <i class="material-icons">label</i>
-                                        <br>
-                                        Chicken
+                                        <i class="left material-icons">label</i>
+                                        CHICKEN
                                     </div>
                                     <div class="collapsible-body">
                                         <img class="responsive-img" src="img/chicken_8.webp" alt="">
                                     <p>
                                         From crispy to juicy our chicken recipe bring bold flavour straight to your table
                                     </p>
-                                    <h1 class="btn orange darken-4">
+                                    <a class="btn-flat orange darken-4 white-text">
                                         All Chicken Recipes
-                                    </h1>
+                                    </a>
                                     </div>
                                 </li>
                             </ul>
@@ -152,17 +154,22 @@
                     </div>
                     <div class="col s12 m6">
                         <p>
-                            "What i love about Recip.com is the sweet cake fit for my tooth chicken for dinner and soup for lazy Sundays"
+                            "What I love about Recipe.com is the sweet cake fit for my tooth chicken for dinner and soup for lazy Sundays"
                         </p>
                         <p class="orange-text text-darken-4">-Abel Smith</p>
                     </div>
                 </div>
 
             </div>
-                <img class="responsive-img" src=" img/cake.jpg" alt="">
+                <div class="parallax-container hide-on-med-and-down">
+                    <div class="parallax">
+                        <img class="responsive-img" src=" img/cake.jpg" alt="">
+                    </div>
+                </div>
+                <img class="responsive-img hide-on-large-only" src=" img/cake.jpg" alt="">
             <div class="container">
                     <h3 class="orange-text text-darken-4">Cakes</h3>
-                    <p class="flow-text"> </p>
+                    <p class="flow-text">Welcome to your new favorite corner of the web where deliciousness meets simplicity. Whether you're craving something sweet and Huffy like a freshly baked cake, in the mood for a hearty and flavorful chicken dish, or looking for comfort in a warm boul of soup, youll find it oll right here. Our recipes are crafted to be easy to follow, packed with flavor, and perfect for every occasion-whether you're cooking for family, friends, or just yourself. So grab your apron and let's make something mouthwatering together! </p>
             </div>
 
     <div class="container"> 
@@ -198,8 +205,7 @@
                     </div>
                     <div class="card-content">
                         <p class="flow-text"><strong class="orange-text text darken-4">Velvet Cake</strong></p>
-                        <p>From crispy to juicy our chicken recipe bring bold flavour straight to your table  </p>
-                        Cozy up with our comforting soup recipes that warm the heart and soul 
+                        <p>From crispy to juicy our chicken recipe bring bold flavour straight to your table </p>
                     </div>
                     <div class="card-action">
                         <a class="orange-text text darken-4 modal-trigger" href="#terms">incredients</a>
@@ -240,13 +246,21 @@
                     </div>
                 </div>
             </div>
+            <div class="center-align">
+            <h4 class="btn btn-flat btn-large orange darken-4 white-text">See all recipes</h4>
+            </div>
         </div>
-            <img class="responsive-img" src="img/soup.jpg" alt="">
+    </div>
+            <div class="parallax-container hide-on-med-and-down">
+                    <div class="parallax">
+                        <img class="responsive-img" src=" img/soup.jpg" alt="">
+                    </div>
+                </div>
+                <img class="responsive-img hide-on-large-only" src=" img/soup.jpg" alt="">
         <div class="container">
                 <h3 class="orange-text text-darken-4">Soups</h3>
-                <p class="flow-text ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid eum, maiores fuga minima autem sequi optio ipsam quidem. Nemo tempore, nisi sequi tempora sunt ab? Quae consequuntur ut vero error!</p>
-        </div>
-
+                <p class="flow-text ">Soup is one of the world's oldest and most universal foods, said Janet Clarkson, author of the book "Soup: A Global History. "Every culture has some kind of soup," she said. "It's got very ancient roots." Early people simmered it in everything from turtle shells to lengths of bamboo, she writes in the book, turning out metal soup pots starting in the Bronze Age.</p>
+            </div>
     <div class="container">
         <div class="row">
             <div class="col s12 m6 l4">
@@ -322,13 +336,22 @@
                     </div>
                 </div>
             </div>
+                <div class="center-align">
+            <h4 class="btn btn-flat btn-large orange darken-4 white-text">See all recipes</h4>
+            </div>
         </div>
     </div>
 
-        <img class="responsive-img" src="img/chicken.jpg" alt="chicken">
+        <div class="parallax-container hide-on-med-and-down">
+                    <div class="parallax">
+                        <img class="responsive-img" src=" img/chicken.jpg" alt="">
+                    </div>
+                </div>
+                <img class="responsive-img hide-on-large-only" src=" img/chicken.jpg" alt="">
     <div class="container">
             <h3 class="orange-text text-darken-4">Chicken</h3>
-            <p class="flow-text">The key to more Sucess is to have a lot of pillows. The Ladies always says Khaled you smell nice and no cologne was used. this is the best talk cloth material special cloth alert talk from real cloth</p>
+            <p class="flow-text">Chicken in all its many forms-from breasts to thighs, or grilled to fried-has long been considered the dinner winner winner, and rightfully so.
+Unfortunately, that can mean falling into a dinner rut much too easily for our liking. If you're like us and just can't bear to make your (or your family's) old standbys for the umpteenth time,we've got you.</p>
     </div>
     <div class="container">
         <div class="row">
@@ -362,7 +385,7 @@
                         <img src="img/chicken_11.webp" class="responsive-img materialboxed" alt="">
                     </div>
                     <div class="card-content">
-                        <p class="flow-text"><strong class="orange-text text-darken-4">Masheddo Wings</strong></p>
+                        <p class="flow-text"><strong class="orange-text text-darken-4">Mashed Wings</strong></p>
                         <p>Walk with me through the pathway of </p>
                     </div>
                     <div class="card-action">
@@ -404,33 +427,78 @@
                     </div>
                 </div>
             </div>
+                <div class="center-align">
+            <h4 class="btn btn-flat btn-large orange darken-4 white-text">See all recipes</h4>
+            </div>
         </div>
     </div>
-    </main>
+    <section class=" section grey lighten-3">
     <div class="container">
-        <footer>
-            <div class="black ">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <h4 class="orange-text text-darken-4">Contact Us Today</h4>
+                <p>Do you want to submit a new recipe? Send a starting message</p>
+                <br>
+                <a class="btn orange darken-4 btn-large btn-flat white-text" href="">Call Us Now
+                    <i class="material-icons right">call</i>
+                </a>
+
+            </div>
+            <div class="col s12 l6">
                 <div class="row">
-                    <div class="col s12 m6 l4">
-                        <a href="" ><img class="responsive-img" width="150px" src=" img/logo.png" alt=""></a> 
-                        <p class="white-text black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto et corrupti unde dolorum iure eos aspernatur in laborum quae atque!</p>
-                    </div>
-                    <div class="col s12 m6 l4">
-                        <h4 class="orange-text text-darken-4">Quick Links</h4>
-                        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias numquam commodi aspernatur iste doloremque beatae deleniti aut illum voluptates sed!</p>
-                    </div>
+                <div class="col s12 input-field">
+                    <input type="text" >
+                    <label class="orange-text text-darken-4" for="">First Nme</label>
+                </div>
+                <div class="col s12 input-field ">
+                    <input type="text" >
+                    <label class="orange-text text-darken-4" for="">Email</label>
+                </div>
+                <div class="col s12 input-field ">
+                    <input type="text" >
+                    <label class="orange-text text-darken-4" for="">Your Message</label>
+                </div>
+                <br>
+                <div class="col s12 center-align ">
+                    <a class="orange darken-4 btn btn-large btn-flat white-text" href="">Submit</a>
+                </div>
                 </div>
             </div>
-            <p class =" orange darken-4 white-text center"> &copy;2020 Recipe.com | CORE-TECH</p>
-            
-            
-        </section>
-        <!-- cake -->
-        <section></section>
-        <!-- soup -->
-        <section></section>
-        <!-- chicken -->
-        <section></section>
+        </div>
+    </div>
+    </section>
+    </main>
+    <div>
+        <footer>
+            <div class="black page-footer">
+                <div class="container">
+            <div class="row">
+                <div class="col s12 l4 m4">
+                <a href=""><img class="responsive-img" width="150px" src="img/logo.png" alt="logo"></a>
+                <p class="white-text">You are one step from all cake soup and chicken recipe. Make the best of the day</p>
+            </div>
+            <div class="col s12 l4 m6"></div>
+            <div class="col s12 l4 m4">
+                <h4 class="orange-text text-darken-4">Quick Links</h4>
+                <p class="white-text">
+                    <ul>
+                        <li><a class="white-text" href="#top">Back to top</a></li>
+                        <li><a class="white-text" href="#cakes">Cakes</a></li>
+                        <li><a class="white-text" href="#soups">Soups</a></li>
+                        <li><a class="white-text" href="#chicken">Chicken</a></li>
+                        <li><a class="white-text" href="#customers">Customers</a></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright orange darken-4">
+            <div class="container">
+            <p class="center-align">&COPY; 2025 Recipe.com | Patrick.jnr</p>
+            </div>
+        </div>
+
+
         </footer>
     </div>
 
@@ -440,6 +508,8 @@
         $(document).ready(function(){
             $('.sidenav').sidenav();
             $('.modal').modal();
+            $('.parallax').parallax();
+
             $('.slider').slider({
                 height: 600,
                 indicators:true,
