@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/materialize.css">
+</head>
+<header>
+    <nav class="white">
+        <div class="container">
+            <div class="absolute-text">
+            <a href="" ><img class="responsive-img" width="150px" src=" img/logo.png" alt=""></a>
+            <a href="#mobile" class="sidenav-trigger right orange-text" href="">s</a>
+            <ul class="right hide-on-small-only">
+                <li><a class="orange-text text-darken-4" href="" ><strong>Home </strong></a></li>
+                <li><a class="orange-text text-darken-4" href=""><strong>Cake </strong></a></li>
+                <li><a class="orange-text text-darken-4" href=""><strong>Soup </strong></a></li>
+                <li><a class="orange-text text-darken-4" href=""><strong>Chicken </strong></a></li>
+                <li><a class="orange-text text-darken-4" href=""><strong>Reviews </strong></a></li>
+                <li><a class="orange-text text-darken-4" href="" ><strong>Login </strong></a></li>
+            </ul>
+            <ul id="mobile" class="sidenav orange darken-4">
+                <li><a class="white-text" href="" ><strong>Home </strong></a></li>
+                <li><a class="white-text" href=""><strong>Cake </strong></a></li>
+                <li><a class="white-text" href=""><strong>Soup </strong></a></li>
+                <li><a class="white-text" href=""><strong>Chicken </strong></a></li>
+                <li><a class="white-text" href=""><strong>Reviews </strong></a></li>
+            </ul>
+            <div>
+            </div>
+        </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <main>
+        <img src="img/chicken.jpg" alt="">
+        <div class="container">
+            <h2 class="orange-text text-darken-4 center-align">Add a New Recipe</h2>
+            <div class="row">
+            <div class="col s12 l8 input-field">
+                <input placeholder="Recipe Name" type="text">
+            </div>
+            <div class="col s12 l4 input-field">
+                <select name="Recipe type" id="Recipe">
+                    <option value="">Cake</option>
+                    <option value="">Cake</option>
+                    <option value="">Chicken</option>
+                    <option value="">Soup</option>
+                </select>
+                <label for="">Recipe Type</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l12 input-field">
+                <input placeholder="Description" type="text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l9 input-field">
+                <input placeholder="Ingredient" type="text">
+            </div>
+            <div class="col s12 l3 input-field">
+                <input placeholder="Duration" type="text">
+            </div>
+        </div>
+        <div class="center-align">
+            <input class="btn btn-large orange darken-4 white-text" type="SUBMIT" name="" id="">
+        </div>
+        </div>
+    </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('select').formSelect();
+
+        })
+    </script>
+</body>
+
+
+</html>
